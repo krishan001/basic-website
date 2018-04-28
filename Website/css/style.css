@@ -1,0 +1,94 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4fd;
+  }
+  .container{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  header{
+    background: #353637;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #af3333 3px solid; 
+  }
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+  }
+  header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding{
+    float: left;
+  }
+  header #branding h1{
+    margin: 0 0 0 20px;
+  }
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+
+  .page-title-container{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  pagetitle h1{
+    text-align: center;
+    color: #353637;
+    margin-left: 20px;
+  }
+
+  .box{
+    background-color: #ffffff;
+    margin-left: 25%;
+    max-width: 50%;
+    
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width:  33%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+img{
+  width: 100%;
+}
+ol{
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #3533af;
+
+}
+
+h3{
+  color: #af3333;;
+  text-transform: uppercase;
+}
+h2{
+  color: #af3333;;
+  text-transform: uppercase;
+}
