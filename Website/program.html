@@ -42,46 +42,98 @@
     <section id="boxes">
         <div class="container">
             <div class="box">
-                <h2>Push</h2>
+                <select id="choice">
+                    <option value="push">Push</option>
+                    <option value="pull">Pull</option>
+                    <option value="legs">Legs</option>
+                    
+                </select>
+                      
+                      <table id = "table">
 
-                <table>
-                    <tr>
+                    <tr class = "push pull legs">
                         <th>Exercise</th>
                         <th>Sets</th>
                         <th>Reps</th>
                     </tr>
-                    <tr>
+                    <tr class = "push">
                         <td>Bench Press</td>
                         <td>3</td>
                         <td>5</td>
                     </tr>
-                    <tr>
+                    <tr class = "push">
                         <td>OHP</td>
                         <td>5</td>
                         <td>5</td>
                     </tr>
-                    <tr>
+                    <tr class = "push">
                         <td>Chest flys</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr>
+                    <tr class = "push">
                         <td>Tricep Dips</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr>
+                    <tr class = "push">
                         <td>Skullcrushers </td>
+                        <td>4</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class = "legs">
+                      
+                        <td>Squat</td>
+                        <td>4</td>
+                        <td>6</td>
+                    </tr>
+                    <tr class = "legs">
+                        <td>Sumo Deadlifts</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class = "legs">
+                        <td>Leg Press</td>
+                        <td>6</td>
+                        <td>8</td>
+                    </tr>
+                    <tr class = "legs">
+                        <td>Calf Raises</td>
+                        <td>5</td>
+                        <td>15</td>
+                    </tr>
+                    <tr class = "pull">
+                        <td>Deadlift</td>
+                        <td>3</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class = "pull">
+                        <td>Barbell Rows</td>
+                        <td>5</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class = "pull">
+                        <td>Pull ups</td>
+                        <td>4</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class = "pull">
+                        <td>Lat Pull downs</td>
+                        <td>4</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class = "pull">
+                        <td>Seated Row</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
                 </table>
 
             </div>
-            <div class="box">
+            <!-- <div class="box">
                 <h2>Pull</h2>
 
-                <table>
+                <table id = "pull">
                     <tr>
                         <th>Exercise</th>
                         <th>Sets</th>
@@ -118,7 +170,7 @@
             <div class="box">
                 <h2>Legs</h2>
 
-                <table>
+                <table id = "Legs">
                     <tr>
                         <th>Exercise</th>
                         <th>Sets</th>
@@ -144,13 +196,14 @@
                         <td>5</td>
                         <td>15</td>
                     </tr>
-                </table>
+                </table> -->
 
             </div>
 
         </div>
     </section>
-
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

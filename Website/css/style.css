@@ -54,6 +54,7 @@ body{
     background-color: #ffffff;
     margin-left: 25%;
     max-width: 50%;
+    margin-top: 1%;
     
   }
 
@@ -62,6 +63,7 @@ body{
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 td, th {
@@ -90,5 +92,18 @@ h3{
 }
 h2{
   color: #af3333;;
+  text-transform: uppercase;
+}
+select{
+  /* -webkit-appearance: none;  */
+  font-size: large;
+  font-weight: bold;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  background: #ffffff;
+  color: #353637;;
   text-transform: uppercase;
 }
