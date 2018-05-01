@@ -1,0 +1,35 @@
+@media print {
+    img {
+        max-width: 400px;
+    }
+    @page {
+        margin: 1cm;
+    }
+    body {
+        font: 12pt Arial, "Times New Roman", Times, serif;
+        line-height: 1.3;
+    }
+    h1 {
+        font-size: 18pt;
+        color: #353637
+    }
+    h2 {
+        font-size: 14pt;
+        margin-top: 25px;
+    }
+    h3 {
+        font-size: 12pt;
+    }
+    nav {
+        display: none;
+    }
+    header {
+        min-height: 40px;
+    }
+    p a {
+        word-wrap: break-word;
+    }
+    a {
+        color: #000;
+    }
+}

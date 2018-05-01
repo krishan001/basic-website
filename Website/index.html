@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-
+    <!--API KEY AIzaSyDGx4h8zbw3J1ftVSRm6d7SbrYgnlTKMMg -->
 <head>
     <title>Gym Website</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/printSheet.css">
 </head>
 
 <body>
+    
 
     <header>
         <div class="container">
@@ -66,10 +68,21 @@
                     aiming to improve your fitness and stay in shape.</p>
 
             </div>
+            <div class = "box">
+                <h3>Find your nearest gym</h3>
+                <div>
+                    <button id="geolocation-button"  class="btn btn-success">Find my position</button>
+                </div>
+                <div id = "map"></div>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGx4h8zbw3J1ftVSRm6d7SbrYgnlTKMMg&callback=enableButtons">
+                </script>
+            </div>
         </div>
     </section>
-    <!-- <script src="scripts/jquery-3.3.1.js"></script>
-    <script src="scripts/script.js"></script> -->
+    <script src="scripts/jquery-3.3.1.js"></script>
+<script src="scripts/geoloc.js"></script>
+
 
 </body>
 

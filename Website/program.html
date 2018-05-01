@@ -4,10 +4,12 @@
 <head>
     <title>Gym Website</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/printSheet.css">
 </head>
 
 <body>
-
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/choice.js"></script>
     <header>
         <div class="container">
             <div id="branding">
@@ -41,91 +43,112 @@
     </pagetitle>
     <section id="boxes">
         <div class="container">
-            <div class = "box">
-               PUT 1RM CALCULATOR HERE
+            <div class="box">
+                <h3>
+                    1 Rep Max Calculator
+                </h3>
+                <form id="1rm">
+                    <p>
+                        Weight in kg:
+                    </p>
+                    <input type="number" id="weight" placeholder="0">
+                    <p>
+                        Reps:
+                    </p>
+                    <input type="number" id="reps" placeholder="0">
+
+                </form>
+                <p><button id = "calcButton">Calculate</button></p>
+                <p>
+                    Your 1 Rep Max is:
+                </p>
+                <p id="maxweight">
+                    0 kg 
+                </p>
+
             </div>
             <div class="box">
                 <select id="choice">
-                    <option selected = "selected" value="push">Push</option>
+                    <option selected="selected" value="push">Push</option>
                     <option value="pull">Pull</option>
                     <option value="legs">Legs</option>
-                    
-                </select>
-                      
-                      <table id = "table">
 
-                    <tr class = "push pull legs">
+                </select>
+
+                <table id="table">
+
+                    <tr class="push pull legs">
                         <th>Exercise</th>
                         <th>Sets</th>
                         <th>Reps</th>
                     </tr>
-                    <tr class = "push">
+                    <tr class="push">
                         <td>Bench Press</td>
                         <td>3</td>
                         <td>5</td>
                     </tr>
-                    <tr class = "push">
+                    <tr class="push">
                         <td>OHP</td>
                         <td>5</td>
                         <td>5</td>
                     </tr>
-                    <tr class = "push">
+                    <tr class="push">
                         <td>Chest flys</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr class = "push">
+                    <tr class="push">
                         <td>Tricep Dips</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr class = "push">
+                    <tr class="push">
                         <td>Skullcrushers </td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr class = "legs">
-                      
+                    <tr class="legs">
+
                         <td>Squat</td>
                         <td>4</td>
                         <td>6</td>
                     </tr>
-                    <tr class = "legs">
+                    <tr class="legs">
                         <td>Sumo Deadlifts</td>
                         <td>4</td>
                         <td>5</td>
                     </tr>
-                    <tr class = "legs">
+                    <tr class="legs">
                         <td>Leg Press</td>
                         <td>6</td>
                         <td>8</td>
                     </tr>
-                    <tr class = "legs">
+                    <tr class="legs">
                         <td>Calf Raises</td>
                         <td>5</td>
                         <td>15</td>
                     </tr>
-                    <tr class = "pull">
+                    <tr class="pull">
                         <td>Deadlift</td>
                         <td>3</td>
                         <td>5</td>
                     </tr>
-                    <tr class = "pull">
+                    <tr class="pull">
                         <td>Barbell Rows</td>
                         <td>5</td>
                         <td>5</td>
                     </tr>
-                    <tr class = "pull">
+                    <tr class="pull">
                         <td>Pull ups</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr class = "pull">
+                    <tr class="pull">
                         <td>Lat Pull downs</td>
                         <td>4</td>
                         <td>10</td>
                     </tr>
-                    <tr class = "pull">
+                    <tr class="pull">
                         <td>Seated Row</td>
                         <td>4</td>
                         <td>10</td>
@@ -137,8 +160,7 @@
         </div>
 
     </section>
-    <script src="scripts/jquery-3.3.1.js"></script>
-    <script src="scripts/script.js"></script>
+
 </body>
 
 </html>
