@@ -107,17 +107,13 @@ h2 {
 }
 
 select {
-  /* -webkit-appearance: none;  */
   font-size: large;
   font-weight: bold;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
   border-radius: 20px;
   width: 100px;
   height: 50px;
   background: #ffffff;
   color: #353637;
-  ;
   text-transform: uppercase;
 }
 #map {

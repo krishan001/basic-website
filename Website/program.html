@@ -10,6 +10,7 @@
 <body>
     <script src="scripts/jquery-3.3.1.js"></script>
     <script src="scripts/choice.js"></script>
+    <script src="scripts/calc.js"></script>
     <header>
         <div class="container">
             <div id="branding">
@@ -58,12 +59,14 @@
                     <input type="number" id="reps" placeholder="0">
 
                 </form>
-                <p><button id = "calcButton">Calculate</button></p>
+                <p>
+                    <button onclick="rm()" id="calcButton">Calculate</button>
+                </p>
                 <p>
                     Your 1 Rep Max is:
                 </p>
                 <p id="maxweight">
-                    0 kg 
+                    0 kg
                 </p>
 
             </div>
